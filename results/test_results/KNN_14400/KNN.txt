@@ -1,0 +1,1 @@
+Std Score: 24.255374, Low FP: 23.517099, Low FN: 26.17883132029613, Recall: 0.3, Precision: 0.5

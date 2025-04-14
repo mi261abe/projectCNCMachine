@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify ./src/main.js | uglifyjs -c > ./dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "uglify-js": "^3.13.4"
+  },
+  "dependencies": {
+    "d3": "^6.7.0",
+    "d3-collection": "^1.0.7",
+    "d3-voronoi": "^1.1.4",
+    "jquery": "^3.6.0",
+    "mpld3": "^0.5.4"
+  }
+}
